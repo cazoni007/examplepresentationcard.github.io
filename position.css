@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Le ponemos un grosor de 2px al borde y un estilo punteado color negro, todo aplicado en una misma linea*/
+.parent {
+    border: 2px dotted black;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+/*Explicacion de como funciona cada position detalladamente, en mi word de html y css ;)*/
+#two {
+    background-color: green;
+    position: absolute;
+}
+
+.all-box{
+    background-color: brown;
+    margin: 0 auto;
+    margin-top: 8vh;
+    max-width: 800px;
+    min-width: 100px;
+    border: 3px black solid;
+    border-radius: 16px;
+}
+
+.sponge-text {
+    text-align: center;
+    color: white;
+    padding: 5px 15px;
+}
+
+.sponge-text img {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.titulo {
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px black solid;
+    border-radius: 6px;
+    background-color: aqua;
+    text-align: center;
+    max-width: 200px;
+    position: relative;
+    bottom: 20px;
+}
